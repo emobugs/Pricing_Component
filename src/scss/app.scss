@@ -20,6 +20,27 @@ html {
 }
 
 .wrapper {
-  padding: 50px;
+  font-family: Laca;
+  padding: 200px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.is-3 {
+  color: #f2f2f2;
+}
+
+.box {
+  border-radius: 25px;
+  background-color: #796ad9;
+  color: #f2f2f2;
+}
+
+.value {
+  padding: 10px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
 }
 
