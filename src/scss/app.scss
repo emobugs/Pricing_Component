@@ -24,33 +24,28 @@ main {
   flex-flow: row;
 }
 
-.span {
-  text-transform: uppercase;
-}
-
-.is-rounded {
-  text-transform: uppercase;
-}
-
-.is-3 {
-  color: #f2f2f2;
-}
-
-.box {
-  border-radius: 25px;
-  background-color: #796ad9;
-  color: #f2f2f2;
-}
-
 @media screen and (max-width: 1200px) {
   main {
-    font-family: laca;
     padding: 200px;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
     flex-flow: column;
   }
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.white {
+  color: white;
+}
+
+.box {
+  border-radius: 25px;
+  background-color: #796ad9;
+  color: #f2f2f2;
 }
 
 .value {
